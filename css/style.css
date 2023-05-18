@@ -1,0 +1,47 @@
+*,
+*::after,
+*::before{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 300;
+  color: #2C2B2B;
+}
+.container{
+  max-width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+.header{
+  background-image: url(../images/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  min-height: 700px;
+  color: #fff;
+}
+.haeder__top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 47px 0;
+}
+
+.phone{
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 53.35px;
+}
+
+
