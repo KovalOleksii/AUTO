@@ -72,6 +72,12 @@ a{
   font-size: 14px;
   line-height: 21px;
   text-transform: uppercase;
+  transition: all .5s;
+}
+
+.button:hover{
+  color: #5A0D67;
+  background-color: #fff;
 }
 
 .header__social{
@@ -87,5 +93,5 @@ a{
 .hadeer__images{
   position: absolute;
   right: 0;
-  top: 290px;
+  bottom: -270px;
 }
