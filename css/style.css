@@ -82,12 +82,16 @@ a{
 
 .header__social{
   padding: 70px 0 20px 65px;
+ 
+}
+
+.social{
   display: flex;
   align-items: center;
 }
 
-.header__social-linc{
-  margin-right: 10px;
+.social-link{
+  margin: 0 5px;
 }
 
 .hadeer__images{
@@ -398,5 +402,15 @@ height: 1px;
   cursor: pointer;
 }
 
+.footer{
+  background-color: #21062A;
+}
 
+.footer__inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  height: 100px;
+}
 
