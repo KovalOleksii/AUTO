@@ -198,6 +198,17 @@ transform: rotate(270deg);
 transition: all .5s;
 }
 
+/* если цыфер больше 10 чтобы не получалось 010 
+
+.class::before{
+  content: '0' counter(name);
+}
+
+.class:nth-child(n + 10)::before{
+  content: counter(name);
+
+*/
+
 .services__item:hover{
   border: 2px solid #5A0D67;
   width: 500px;
@@ -321,4 +332,79 @@ height: 1px;
   background-color: #5A0D67;
   height: 3px;
 }
+
+.contacts {
+}
+.contacts__inner {
+  display: flex;
+  justify-content: space-between;
+}
+.cocontacts__info {
+}
+.title {
+}
+.contacts__list {
+  list-style: none;
+}
+.contacts__item {
+  margin-bottom: 20px;
+}
+
+.contacts__item-title {
+  color: #5A0D67;
+}
+
+.contacts__itam-text {
+}
+.contacts__form {
+  background: #21062A;
+  padding: 50px 75px 75px;
+  text-align: center;
+}
+
+.contacts__title {
+  color: #fff;
+  margin-bottom: 16px;
+  margin-left: 53px;
+  margin-left: 53px;
+  text-align: left;
+  
+}
+
+.contacts__title::after {
+  background-color: #fff;
+}
+
+.contacts__input {
+  background-color: transparent;
+  width: 450px;
+  height: 75px;
+  color: #fff;
+  border: 1px solid #fff;
+  margin-bottom: 12px;
+  display: block;
+  font-size: 24px;
+  padding: 0 15px;
+  text-align: center;
+}
+
+.contacts__input::placeholder{
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 300;
+  color: #C4C4C4;
+  
+}
+
+.contacts__btn {
+  border: none;
+  color: #fff;
+  margin-top: 78px;
+  cursor: pointer;
+}
+.button {
+}
+
 
