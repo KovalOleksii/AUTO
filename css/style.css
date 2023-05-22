@@ -31,7 +31,7 @@ a{
   min-height: 700px;
   color: #fff;
 }
-.haeder__top{
+.header__top{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -100,6 +100,7 @@ a{
   bottom: -270px;
 }
 
+/* секция services */
 .services {
   padding-top: 350px;
 }
@@ -414,4 +415,68 @@ height: 1px;
   color: #fff;
   height: 100px;
 }
+
+@media (max-width:1024px){
+  .hadeer__images{
+    width: 80%;
+  }
+}
+
+@media (max-width:900px){
+  .phone{
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .header__title {
+    font-size: 54px;
+    line-height: 74px;
+  }
+.header__subtitle {
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 20px;
+ }
+.header__social {
+  padding: 30px 0 20px 53px;
+}
+}
+
+@media (max-width:600px){
+  .header__content {
+    padding-top: 0px;
+    text-align: center;
+}
+.social {
+  justify-content: center;
+}
+}
+
+@media (max-width:520px){
+.header__top{
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+.logo{
+  margin-bottom: 20px;
+  width: 100%;
+}
+.header__title{
+  margin-bottom: 20px;
+}
+.hadeer__images{
+  position: static;
+  width: 100%;
+}
+}
+
+@media (max-width:520px){
+.header__title{
+  font-size: 44px;
+  line-height: 50px;
+}
+}
+
+
+
 
